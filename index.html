@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Battle #1 - 07</title>
+    <style>
+      :root {
+        --verdeOscuro: #0b2429;
+        --verdeClaro: #1a4341;
+        --amarillo: #f3ac3c;
+        --mostaza: #998235;
+      }
+      body {
+        margin: 0;
+        background: var(--verdeOscuro);
+      }
+      .contenedor {
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .hoja {
+        width: 150px;
+        height: 150px;
+        border-radius: 67% 0 67% 0;
+        margin: -50px;
+      }
+      .verde {
+        background: var(--verdeClaro);
+      }
+      .mostaza {
+        background: var(--mostaza);
+      }
+      .amarilla {
+        background: var(--amarillo);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="contenedor">
+      <div class="hoja verde"></div>
+      <div class="hoja mostaza"></div>
+      <div class="hoja amarilla"></div>
+    </div>
+  </body>
+</html>
